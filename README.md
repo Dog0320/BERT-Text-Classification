@@ -1,6 +1,7 @@
 # BERT-Text-Classification
 BERT-Text-Classification pytorch implementation
-##Requirements
+
+## Requirements
 ```
 Python3
 transformers==3.1.0
