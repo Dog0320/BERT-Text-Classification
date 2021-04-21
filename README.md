@@ -14,9 +14,23 @@ argparse==1.4.0
 * Download ``google_model.bin`` from [here](https://drive.google.com/drive/folders/1i67mPV1i2P2IMNTks2PtPeZsDnA8SVQN?usp=sharing), and save it to the ``assets/`` directory.
 * Download ``dataset`` from [here](https://drive.google.com/drive/folders/1i67mPV1i2P2IMNTks2PtPeZsDnA8SVQN?usp=sharing), and save it to the ``data/`` directory.
 
-### Classification example
+### Model Training
 
 Run example on ATIS dataset.
 ```
 python3 train.py --data_dir data/atis/ --model_path /assets/
+```
+
+### Model Evaluation
+
+Run example on ATIS dataset.
+```
+python3 evaluate.py --data_dir data/atis/ --model_path /assets/
+```
+
+### Model Prediction
+
+Run example on ATIS dataset.
+```
+python3 predict.py --data_dir data/atis/ --model_path /assets/
 ```
