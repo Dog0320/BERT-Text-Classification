@@ -12,7 +12,7 @@ argparse==1.4.0
 ## Prepare
 
 * Download ``google_model.bin`` from [here](https://drive.google.com/drive/folders/11i463eaaVvBrulLzSmUHdjFRgO_txBnU?usp=sharing), and save it to the ``assets/`` directory.
-* Download ``dataset`` from [here](https://drive.google.com/drive/folders/11i463eaaVvBrulLzSmUHdjFRgO_txBnU?usp=sharing), and save it to the ``data/`` directory.
+* Download ``dataset`` from [here](https://drive.google.com/drive/folders/1LyctA87Ve2oNb7nxovFzZbT_td9CCV24?usp=sharing), and save it to the ``data/`` directory.
 
 ### Model Training
 
